@@ -1,6 +1,6 @@
 Name:           hwatch
 Version:        0.3.18
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        A modern alternative to the 'watch' command, it records differences in execution results and allows for examination of these differences afterward.
 URL:            https://github.com/blacknon/hwatch/
 License:        MIT
@@ -52,6 +52,7 @@ $HOME/.cargo/bin/cargo test --release --locked --all-features
 /etc/bash_completion.d/%{name}.bash
 
 %changelog
+* Fri Dec 27 2024 blacknon - 0.3.18-2
 * Fri Nov 15 2024 blacknon - 0.3.18-1
  - fix hwatch 0.3.17 freezes in a narrow terminal  #171
  - fix hwatch 0.3.17 no longer prints blank lines. #172
