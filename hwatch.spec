@@ -1,6 +1,6 @@
 Name:           hwatch
 Version:        0.4.2
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        A modern alternative to the 'watch' command, it records differences in execution results and allows for examination of these differences afterward.
 URL:            https://github.com/blacknon/hwatch/
 License:        MIT
